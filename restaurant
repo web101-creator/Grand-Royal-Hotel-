@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant &amp; Dining | Golden Grand Royal Hotel Kabba</title>
+<meta name="description" content="Dine at Golden Grand Royal Hotel, Kabba — breakfast, lunch, dinner and drinks. Ask about today's menu or enquire on WhatsApp.">
+<meta name="keywords" content="Golden Grand Royal Hotel, Golden Grand Royal Hotel Kabba, Hotels in Kabba, Hotel in Kabba Kogi State, Accommodation in Kabba, Kabba hotels, Hotels in Kogi State">
+<link rel="canonical" href="https://www.goldengrandroyalhotel.com/restaurant.html">
+<meta property="og:title" content="Restaurant & Dining | Golden Grand Royal Hotel">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header" id="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">G</span>
+      <span class="brand-text"><span class="brand-name">Golden Grand Royal Hotel</span><span class="brand-loc">KABBA, KOGI STATE</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="restaurant.html" class="active">Restaurant</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="booking.html" class="btn btn-gold btn-sm header-book">Book a Room</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="nav-scrim" id="nav-scrim"></div>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Restaurant</p>
+      <h1>Restaurant &amp; Dining</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="container intro-grid">
+      <div class="intro-media reveal">
+        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80" alt="Dining area at Golden Grand Royal Hotel restaurant" loading="lazy">
+      </div>
+      <div class="reveal">
+        <span class="section-eyebrow">Dining Experience</span>
+        <h2>Good food, warm company</h2>
+        <p style="margin-top:0.9rem; color:var(--color-text-muted);">Our restaurant serves a range of dishes across breakfast, lunch, dinner and drinks, prepared with care for guests staying with us and visitors alike. Menus are refreshed regularly — ask our team about today's selection.</p>
+        <a href="#" class="btn btn-whatsapp" data-whatsapp="Hello Golden Grand Royal Hotel, I would like to ask about today's menu."><i class="fa-brands fa-whatsapp"></i> Order / Enquire on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="section-eyebrow">Our Menu</span>
+        <h2>Menu Categories</h2>
+        <p>Ask about today's menu — dishes vary by availability.</p>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="filter-btn active" data-menu-tab="breakfast">Breakfast</button>
+        <button class="filter-btn" data-menu-tab="lunch">Lunch</button>
+        <button class="filter-btn" data-menu-tab="dinner">Dinner</button>
+        <button class="filter-btn" data-menu-tab="drinks">Drinks</button>
+      </div>
+
+      <div class="menu-panel active" data-menu-panel="breakfast">
+        <div class="menu-items">
+          <div class="menu-line"><div><h4>Continental Breakfast</h4><p>Bread, eggs, tea or coffee.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Nigerian Breakfast Plate</h4><p>Local breakfast favourites, prepared fresh.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Pancakes &amp; Fruit</h4><p>Served with seasonal fruit.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Tea &amp; Coffee</h4><p>Hot beverages served fresh.</p></div><span class="price">Ask about today's menu</span></div>
+        </div>
+      </div>
+
+      <div class="menu-panel" data-menu-panel="lunch">
+        <div class="menu-items">
+          <div class="menu-line"><div><h4>Jollof Rice &amp; Chicken</h4><p>A classic favourite, prepared to order.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Fried Rice &amp; Salad</h4><p>Served with a side of coleslaw.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Pounded Yam &amp; Soup</h4><p>Choice of soup, served hot.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Grilled Fish Plate</h4><p>With rice or plantain.</p></div><span class="price">Ask about today's menu</span></div>
+        </div>
+      </div>
+
+      <div class="menu-panel" data-menu-panel="dinner">
+        <div class="menu-items">
+          <div class="menu-line"><div><h4>Peppered Chicken</h4><p>Served with rice or fries.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Catfish Pepper Soup</h4><p>A warming evening favourite.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Vegetable Soup &amp; Swallow</h4><p>Choice of swallow.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Grilled Turkey Plate</h4><p>With a side of salad.</p></div><span class="price">Ask about today's menu</span></div>
+        </div>
+      </div>
+
+      <div class="menu-panel" data-menu-panel="drinks">
+        <div class="menu-items">
+          <div class="menu-line"><div><h4>Soft Drinks</h4><p>Chilled and served on request.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Fresh Juice</h4><p>Ask about available options.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Bottled Water</h4><p>Available throughout the hotel.</p></div><span class="price">Ask about today's menu</span></div>
+          <div class="menu-line"><div><h4>Assorted Beverages</h4><p>Ask our team for the full selection.</p></div><span class="price">Ask about today's menu</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta-band reveal">
+        <div>
+          <h3>Hungry? Let's sort you out.</h3>
+          <p>Message us on WhatsApp to enquire or place an order.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="#" class="btn btn-whatsapp" data-whatsapp="Hello Golden Grand Royal Hotel, I would like to order / enquire about the restaurant menu."><i class="fa-brands fa-whatsapp"></i> Order / Enquire on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">Golden Grand Royal Hotel</span>
+        <p>A comfortable destination for relaxation, accommodation, events and unforgettable hospitality in Kabba, Kogi State.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook (link to be added)"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram (link to be added)"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="X, formerly Twitter (link to be added)"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col fc-links2">
+        <h4>More</h4>
+        <ul>
+          <li><a href="restaurant.html">Restaurant</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">Book a Room</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0814 570 3890</li>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0811 216 5602</li>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0811 216 5601</li>
+          <li class="fc-phone"><i class="fa-solid fa-location-dot"></i> Kabba, Kogi State, Nigeria</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span data-year></span> Golden Grand Royal Hotel. All Rights Reserved.</p>
+      <p>Kabba, Kogi State, Nigeria</p>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="float-btn float-whatsapp" data-whatsapp="Hello Golden Grand Royal Hotel, I would like to enquire about room availability." aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<button class="float-btn float-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
