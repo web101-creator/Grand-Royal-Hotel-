@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booking Request | Golden Grand Royal Hotel Kabba</title>
+<meta name="description" content="Send a booking request to Golden Grand Royal Hotel, Kabba, Kogi State. This is a request only — the hotel will confirm your reservation.">
+<meta name="keywords" content="Golden Grand Royal Hotel, Golden Grand Royal Hotel Kabba, Hotels in Kabba, Hotel in Kabba Kogi State, Accommodation in Kabba, Kabba hotels, Hotels in Kogi State">
+<link rel="canonical" href="https://www.goldengrandroyalhotel.com/booking.html">
+<meta property="og:title" content="Booking Request | Golden Grand Royal Hotel">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header" id="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">G</span>
+      <span class="brand-text"><span class="brand-name">Golden Grand Royal Hotel</span><span class="brand-loc">KABBA, KOGI STATE</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="restaurant.html">Restaurant</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="booking.html" class="btn btn-gold btn-sm header-book">Book a Room</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="nav-scrim" id="nav-scrim"></div>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Booking Request</p>
+      <h1>Booking Request</h1>
+      <p style="max-width:600px; color:#cfd6dc; margin-top:0.6rem;">This form sends a booking request — it does not confirm a reservation. Our team will contact you to confirm availability and finalize your stay.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="form-card reveal" style="max-width:820px; margin:0 auto;">
+        <form id="booking-form" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="b-name">Full Name</label>
+              <input type="text" id="b-name" name="name" required>
+              <span class="field-error">Please enter your full name.</span>
+            </div>
+            <div class="form-field">
+              <label for="b-email">Email</label>
+              <input type="email" id="b-email" name="email" required>
+              <span class="field-error">Please enter a valid email address.</span>
+            </div>
+            <div class="form-field">
+              <label for="b-phone">Phone</label>
+              <input type="tel" id="b-phone" name="phone" required>
+              <span class="field-error">Please enter a valid phone number.</span>
+            </div>
+            <div class="form-field">
+              <label for="b-roomtype">Room Type</label>
+              <select id="b-roomtype" name="roomtype" required>
+                <option value="">Select a room type</option>
+                <option>Standard Room</option>
+                <option>Deluxe Room</option>
+                <option>Executive Room</option>
+                <option>Royal Suite</option>
+              </select>
+              <span class="field-error">Please select a room type.</span>
+            </div>
+            <div class="form-field">
+              <label for="b-checkin">Check-in Date</label>
+              <input type="date" id="b-checkin" name="checkin" required>
+              <span class="field-error">Please choose a valid check-in date.</span>
+            </div>
+            <div class="form-field">
+              <label for="b-checkout">Check-out Date</label>
+              <input type="date" id="b-checkout" name="checkout" required>
+              <span class="field-error">Check-out must be after check-in.</span>
+            </div>
+            <div class="form-field">
+              <label for="b-adults">Adults</label>
+              <select id="b-adults" name="adults">
+                <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5+</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="b-children">Children</label>
+              <select id="b-children" name="children">
+                <option selected>0</option><option>1</option><option>2</option><option>3+</option>
+              </select>
+            </div>
+            <div class="form-field full">
+              <label for="b-requests">Special Requests</label>
+              <textarea id="b-requests" name="requests" placeholder="Optional — let us know anything else we should be aware of."></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-gold btn-block">Send Booking Request</button>
+
+          <div class="form-success" role="status">
+            <strong>Booking Request Received</strong>
+            Thank you — your booking request has been prepared. This is a request only; no room is reserved until our team confirms availability with you.
+            <div class="booking-ref-box" id="booking-reference"></div>
+            <a href="#" id="booking-whatsapp-btn" class="btn btn-whatsapp" style="display:none; margin-top:1rem;"><i class="fa-brands fa-whatsapp"></i> Send Request via WhatsApp</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">Golden Grand Royal Hotel</span>
+        <p>A comfortable destination for relaxation, accommodation, events and unforgettable hospitality in Kabba, Kogi State.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook (link to be added)"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram (link to be added)"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="X, formerly Twitter (link to be added)"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col fc-links2">
+        <h4>More</h4>
+        <ul>
+          <li><a href="restaurant.html">Restaurant</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">Book a Room</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0814 570 3890</li>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0811 216 5602</li>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0811 216 5601</li>
+          <li class="fc-phone"><i class="fa-solid fa-location-dot"></i> Kabba, Kogi State, Nigeria</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span data-year></span> Golden Grand Royal Hotel. All Rights Reserved.</p>
+      <p>Kabba, Kogi State, Nigeria</p>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="float-btn float-whatsapp" data-whatsapp="Hello Golden Grand Royal Hotel, I would like to enquire about room availability." aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<button class="float-btn float-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/main.js"></script>
+<script src="js/booking.js"></script>
+</body>
+</html>
