@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Golden Grand Royal Hotel Kabba</title>
+<meta name="description" content="Contact Golden Grand Royal Hotel in Kabba, Kogi State. Call 0814 570 3890, 0811 216 5602 or 0811 216 5601, or reach us on WhatsApp.">
+<meta name="keywords" content="Golden Grand Royal Hotel, Golden Grand Royal Hotel Kabba, Hotels in Kabba, Hotel in Kabba Kogi State, Accommodation in Kabba, Kabba hotels, Hotels in Kogi State">
+<link rel="canonical" href="https://www.goldengrandroyalhotel.com/contact.html">
+<meta property="og:title" content="Contact Us | Golden Grand Royal Hotel">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header" id="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">G</span>
+      <span class="brand-text"><span class="brand-name">Golden Grand Royal Hotel</span><span class="brand-loc">KABBA, KOGI STATE</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="restaurant.html">Restaurant</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="booking.html" class="btn btn-gold btn-sm header-book">Book a Room</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="nav-scrim" id="nav-scrim"></div>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+      <h1>Contact Us</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="container two-col">
+
+      <div class="reveal">
+        <span class="section-eyebrow">Get in Touch</span>
+        <h2>We'd love to hear from you</h2>
+        <p style="margin-top:0.7rem; color:var(--color-text-muted);">Reach out with any questions about rooms, events or your upcoming stay in Kabba.</p>
+
+        <div class="contact-info-list">
+          <div class="ci-item">
+            <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Address</h4>
+              <p>Golden Grand Royal Hotel, Kabba, Kogi State, Nigeria</p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+2348145703890">0814 570 3890</a><br>
+              <a href="tel:+2348112165602">0811 216 5602</a><br>
+              <a href="tel:+2348112165601">0811 216 5601</a></p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="#" data-whatsapp="Hello Golden Grand Royal Hotel, I would like to make an enquiry.">Chat with us instantly</a></p>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn btn-whatsapp" style="margin-top:1.5rem;" data-whatsapp="Hello Golden Grand Royal Hotel, I would like to make an enquiry."><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+      </div>
+
+      <div class="form-card reveal">
+        <h3 style="margin-bottom:1.2rem;">Send Us a Message</h3>
+        <form id="contact-form" novalidate>
+          <div class="form-field">
+            <label for="c-name">Full Name</label>
+            <input type="text" id="c-name" name="name" required>
+            <span class="field-error">Please enter your name.</span>
+          </div>
+          <div class="form-field">
+            <label for="c-email">Email</label>
+            <input type="email" id="c-email" name="email" required>
+            <span class="field-error">Please enter a valid email address.</span>
+          </div>
+          <div class="form-field">
+            <label for="c-phone">Phone</label>
+            <input type="tel" id="c-phone" name="phone" required>
+            <span class="field-error">Please enter your phone number.</span>
+          </div>
+          <div class="form-field">
+            <label for="c-subject">Subject</label>
+            <input type="text" id="c-subject" name="subject">
+          </div>
+          <div class="form-field">
+            <label for="c-message">Message</label>
+            <textarea id="c-message" name="message" required></textarea>
+            <span class="field-error">Please enter your message.</span>
+          </div>
+          <button type="submit" class="btn btn-navy btn-block">Send Message</button>
+
+          <div class="form-success" role="status">
+            <strong>Message sent</strong>
+            Thank you for reaching out. Our team will get back to you shortly — for a faster response, you can also chat with us on WhatsApp.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="section-eyebrow">Find Us</span>
+        <h2>Golden Grand Royal Hotel, Kabba</h2>
+      </div>
+      <div class="map-embed reveal">
+        <iframe
+          src="https://www.google.com/maps?q=Golden+Grand+Royal+Hotel,+Kabba,+Kogi+State,+Nigeria&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Map showing Golden Grand Royal Hotel, Kabba, Kogi State">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">Golden Grand Royal Hotel</span>
+        <p>A comfortable destination for relaxation, accommodation, events and unforgettable hospitality in Kabba, Kogi State.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook (link to be added)"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram (link to be added)"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="X, formerly Twitter (link to be added)"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col fc-links2">
+        <h4>More</h4>
+        <ul>
+          <li><a href="restaurant.html">Restaurant</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">Book a Room</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0814 570 3890</li>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0811 216 5602</li>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0811 216 5601</li>
+          <li class="fc-phone"><i class="fa-solid fa-location-dot"></i> Kabba, Kogi State, Nigeria</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span data-year></span> Golden Grand Royal Hotel. All Rights Reserved.</p>
+      <p>Kabba, Kogi State, Nigeria</p>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="float-btn float-whatsapp" data-whatsapp="Hello Golden Grand Royal Hotel, I would like to enquire about room availability." aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<button class="float-btn float-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
