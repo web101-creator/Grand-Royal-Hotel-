@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us | Golden Grand Royal Hotel Kabba</title>
+<meta name="description" content="Learn about Golden Grand Royal Hotel, a hospitality-focused hotel in Kabba, Kogi State committed to comfortable stays and attentive guest service.">
+<meta name="keywords" content="Golden Grand Royal Hotel, Golden Grand Royal Hotel Kabba, Hotels in Kabba, Hotel in Kabba Kogi State, Accommodation in Kabba, Kabba hotels, Hotels in Kogi State">
+<link rel="canonical" href="https://www.goldengrandroyalhotel.com/about.html">
+<meta property="og:title" content="About Us | Golden Grand Royal Hotel">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header" id="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">G</span>
+      <span class="brand-text"><span class="brand-name">Golden Grand Royal Hotel</span><span class="brand-loc">KABBA, KOGI STATE</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="about.html" class="active">About</a>
+      <a href="services.html">Services</a>
+      <a href="restaurant.html">Restaurant</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="booking.html" class="btn btn-gold btn-sm header-book">Book a Room</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="nav-scrim" id="nav-scrim"></div>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / About</p>
+      <h1>About Golden Grand Royal Hotel</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="container intro-grid">
+      <div class="reveal">
+        <span class="section-eyebrow">Our Story</span>
+        <h2>Hospitality rooted in Kabba</h2>
+        <p style="margin-top:0.9rem; color:var(--color-text-muted);">Golden Grand Royal Hotel is located in Kabba, Kogi State, and exists to give guests a comfortable, dependable place to rest, work and celebrate. Whether you are visiting for business, a family event, or simply passing through, our team is focused on attentive, personal service from the moment you arrive.</p>
+        <p style="margin-top:0.9rem; color:var(--color-text-muted);">We believe a good stay comes down to the details — a clean, comfortable room, a warm welcome, and staff who are genuinely happy to help. That is the standard we hold ourselves to every day.</p>
+      </div>
+      <div class="intro-media reveal">
+        <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=900&q=80" alt="Exterior of Golden Grand Royal Hotel, Kabba, Kogi State" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="section-eyebrow">Our Philosophy</span>
+        <h2>Why guests choose Golden Grand Royal</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card service-card reveal">
+          <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+          <h3>Genuine Hospitality</h3>
+          <p>Our team treats every guest as a personal guest — attentive, friendly and quick to help.</p>
+        </div>
+        <div class="card service-card reveal">
+          <div class="icon"><i class="fa-solid fa-broom"></i></div>
+          <h3>Comfort &amp; Cleanliness</h3>
+          <p>Rooms are kept comfortable and well-maintained for a restful stay every time.</p>
+        </div>
+        <div class="card service-card reveal">
+          <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+          <h3>Convenient Location</h3>
+          <p>Situated in Kabba, Kogi State, making us an easy base for guests travelling in the area.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="section-eyebrow">Guest Experience</span>
+        <h2>What to expect when you stay with us</h2>
+        <p>From check-in to check-out, our aim is a smooth, comfortable and welcoming experience.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="reveal" style="text-align:center;">
+          <div class="icon" style="margin:0 auto 0.8rem; width:54px; height:54px; border-radius:50%; background:var(--color-accent); color:var(--color-secondary); display:flex; align-items:center; justify-content:center;"><i class="fa-solid fa-door-open"></i></div>
+          <h4 style="font-family:var(--font-body); font-size:0.95rem;">Warm Welcome</h4>
+          <p style="font-size:0.85rem; color:var(--color-text-muted);">A friendly check-in from our front desk team.</p>
+        </div>
+        <div class="reveal" style="text-align:center;">
+          <div class="icon" style="margin:0 auto 0.8rem; width:54px; height:54px; border-radius:50%; background:var(--color-accent); color:var(--color-secondary); display:flex; align-items:center; justify-content:center;"><i class="fa-solid fa-bed"></i></div>
+          <h4 style="font-family:var(--font-body); font-size:0.95rem;">Comfortable Rooms</h4>
+          <p style="font-size:0.85rem; color:var(--color-text-muted);">Clean, well-kept rooms suited to your needs.</p>
+        </div>
+        <div class="reveal" style="text-align:center;">
+          <div class="icon" style="margin:0 auto 0.8rem; width:54px; height:54px; border-radius:50%; background:var(--color-accent); color:var(--color-secondary); display:flex; align-items:center; justify-content:center;"><i class="fa-solid fa-utensils"></i></div>
+          <h4 style="font-family:var(--font-body); font-size:0.95rem;">Dining On-Site</h4>
+          <p style="font-size:0.85rem; color:var(--color-text-muted);">Meals available for breakfast, lunch and dinner.</p>
+        </div>
+        <div class="reveal" style="text-align:center;">
+          <div class="icon" style="margin:0 auto 0.8rem; width:54px; height:54px; border-radius:50%; background:var(--color-accent); color:var(--color-secondary); display:flex; align-items:center; justify-content:center;"><i class="fa-solid fa-headset"></i></div>
+          <h4 style="font-family:var(--font-body); font-size:0.95rem;">Round-the-Clock Support</h4>
+          <p style="font-size:0.85rem; color:var(--color-text-muted);">Our team is on hand 24/7 for anything you need.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="cta-band reveal" style="background:var(--color-primary);">
+        <div>
+          <h3>Come experience it for yourself</h3>
+          <p>Kabba, Kogi State — book your stay or reach out with any questions.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="booking.html" class="btn btn-gold">Book a Room</a>
+          <a href="contact.html" class="btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">Golden Grand Royal Hotel</span>
+        <p>A comfortable destination for relaxation, accommodation, events and unforgettable hospitality in Kabba, Kogi State.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook (link to be added)"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram (link to be added)"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="X, formerly Twitter (link to be added)"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col fc-links2">
+        <h4>More</h4>
+        <ul>
+          <li><a href="restaurant.html">Restaurant</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">Book a Room</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0814 570 3890</li>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0811 216 5602</li>
+          <li class="fc-phone"><i class="fa-solid fa-phone"></i> 0811 216 5601</li>
+          <li class="fc-phone"><i class="fa-solid fa-location-dot"></i> Kabba, Kogi State, Nigeria</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span data-year></span> Golden Grand Royal Hotel. All Rights Reserved.</p>
+      <p>Kabba, Kogi State, Nigeria</p>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="float-btn float-whatsapp" data-whatsapp="Hello Golden Grand Royal Hotel, I would like to enquire about room availability." aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<button class="float-btn float-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
